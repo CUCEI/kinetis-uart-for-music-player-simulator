@@ -1,0 +1,24 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Project_Headers"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/Common"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/cpu"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/Drivers"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/Drivers/gpio"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/Drivers/mcg"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Sources/Drivers/uart"
+-I"C:/Users/R1CK/Desktop/FRDM-KL25Z-UART/Project_Settings/Startup_Code"
+-I"C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-specs=ewl_c_noio.specs
