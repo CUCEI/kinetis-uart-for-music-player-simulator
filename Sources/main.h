@@ -16,10 +16,6 @@
 #include "nvic.h"
 #include "libs.h"
 
-
-
-
-
 /* Uses UART0 for both Open SDA and TWR-SER Tower card */
 #define TERM_PORT_NUM       0
 
@@ -27,8 +23,8 @@
 #undef  HW_FLOW_CONTROL
 
 #define UART_MODE POLLING
-#define POLLING				0
-#define INTERRUPT			1
+#define POLLING             0
+#define INTERRUPT           1
 
 /*
  * PLL Configuration Info
@@ -40,20 +36,20 @@
 /*
  * Misc. Defines
  */
-#ifdef	FALSE
-#undef	FALSE
+#ifdef  FALSE
+#undef  FALSE
 #endif
-#define FALSE	(0)
+#define FALSE   (0)
 
-#ifdef	TRUE
-#undef	TRUE
+#ifdef  TRUE
+#undef  TRUE
 #endif
-#define	TRUE	(1)
+#define TRUE    (1)
 
-#ifdef	NULL
-#undef	NULL
+#ifdef  NULL
+#undef  NULL
 #endif
-#define NULL	(0)
+#define NULL    (0)
 
 #ifdef  ON
 #undef  ON
@@ -64,8 +60,5 @@
 #undef  OFF
 #endif
 #define OFF     (0)
-
-
-    
 
 #endif /* MAIN_H_ */
